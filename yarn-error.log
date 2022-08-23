@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\22832\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @types/react
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\22832\AppData\Local\Microsoft\WindowsApps;;C:\Users\22832\AppData\Roaming\npm;C:\Users\22832\AppData\Local\Programs\Microsoft VS Code2\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\22832\AppData\Local\Yarn\Cache\v6\npm-ansi-styles-4.3.0-edd803628ae71c04c85ae7a0906edad34b648937-integrity\node_modules\ansi-styles\index.d.ts' -> 'C:\Users\22832\Desktop\个人\html-dom-chinese\node_modules\@next\react-dev-overlay\node_modules\ansi-styles\index.d.ts'
+
+npm manifest: 
+  {
+      "name": "html-dom",
+      "description": "Common tasks to manage HTML DOM with native API",
+      "author": {
+          "name": "Nguyen Huu Phuoc",
+          "email": "me@phuoc.ng",
+          "url": "https://twitter.com/nghuuphuoc"
+      },
+      "homepage": "https://htmldom.dev",
+      "keywords": [
+          "dom",
+          "document object model",
+          "dom api",
+          "html"
+      ],
+      "repository": {
+          "type": "git",
+          "url": "https://github.com/1milligram/html-dom"
+      },
+      "bugs": {
+          "url": "https://github.com/1milligram/html-dom/issues"
+      },
+      "license": "MIT",
+      "scripts": {
+          "build": "next build",
+          "dev": "next dev",
+          "format": "prettier --write \"**/*.+(css|html|json|js|jsx|mdx|scss|ts|tsx)\"",
+          "preexport": "npm run build",
+          "export": "next export",
+          "deploy": "npm run export && netlify deploy --prod --dir=out",
+          "prestart": "npm run export",
+          "start": "serve out"
+      },
+      "dependencies": {
+          "@1milligram/design": "^0.4.0",
+          "@1milligram/frame": "^1.0.1",
+          "gray-matter": "^4.0.3",
+          "next": "^11.1.2",
+          "prism-react-renderer": "^1.2.1",
+          "react": "^17.0.2",
+          "react-dom": "^17.0.2",
+          "react-markdown": "^7.0.1",
+          "remark-directive": "^2.0.0",
+          "remark-gfm": "^2.0.0"
+      },
+      "devDependencies": {
+          "@types/react": "^17.0.20",
+          "@types/react-dom": "^17.0.9",
+          "prettier": "^2.4.0",
+          "sass": "^1.39.2",
+          "serve": "^12.0.1",
+          "typescript": "^4.4.3"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
