@@ -1,3 +1,7 @@
+/*
+ * @LastEditTime: 2022-08-25 17:45:57
+ * @LastEditors: jinxiaojian
+ */
 import Link from 'next/link';
 import * as React from 'react';
 import { Logo } from '@1milligram/design';
@@ -28,7 +32,7 @@ export const HeaderBlock = () => {
                         <HeaderLogo />
                     </Link>
                     <Link href="https://github.com/1milligram/html-dom">
-                        <a className="block-header__cta">GitHub {totalStars}★</a>
+                        <a className="block-header__cta">原作者 GitHub {totalStars}★</a>
                     </Link>
                 </div>
             </div>

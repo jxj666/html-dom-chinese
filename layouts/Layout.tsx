@@ -1,3 +1,7 @@
+/*
+ * @LastEditTime: 2022-08-25 17:39:19
+ * @LastEditors: jinxiaojian
+ */
 import Head from 'next/head';
 import * as React from 'react';
 import { FooterBlock } from '../components/FooterBlock';

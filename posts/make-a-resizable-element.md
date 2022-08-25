@@ -1,7 +1,7 @@
 ---
 category: 高级
 keywords:
-title: 调整表列的大小
+title: 调整元素的大小
 ---
 
 Assume that we want to turn the following element to draggable element:
