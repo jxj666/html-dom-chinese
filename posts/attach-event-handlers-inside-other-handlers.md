@@ -1,5 +1,5 @@
 ---
-category: 提示
+category: 高级
 keywords: addEventListener, attach event handler, detach event handler, removeEventListener
 title: 在其他处理程序中附加事件处理程序
 ---
