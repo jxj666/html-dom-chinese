@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: insert after, insert before, insertAdjacentElement, insertBefore, nextSibling
 title: Insert an element after or before other element
 ---

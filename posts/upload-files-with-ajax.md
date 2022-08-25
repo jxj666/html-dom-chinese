@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: Ajax file upload, FormData, XMLHttpRequest
 title: Upload files with Ajax
 ---

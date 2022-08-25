@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: check element visible viewport, clientHeight, clientWidth, documentElement, getBoundingClientRect, innerHeight, innerWidth
 title: Check if an element is in the viewport
 ---

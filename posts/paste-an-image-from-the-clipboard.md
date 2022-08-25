@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: clipboardData, createObjectURL, FormData, getAsFile, paste event, paste image from clipboard, XMLHttpRequest
 title: Paste an image from the clipboard
 ---

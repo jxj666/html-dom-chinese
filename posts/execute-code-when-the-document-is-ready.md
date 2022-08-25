@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords:
 title: Execute code when the document is ready
 ---

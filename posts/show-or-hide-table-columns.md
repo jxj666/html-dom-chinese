@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, custom context menu, data attribute, getAttribute, hide table columns, setAttribute, show table columns
-title: Show or hide table columns
+title: 显示或隐藏表列
 ---
 
 This post shows how to show or hide any columns of a table by righ-clicking its header. The markup consists of the table and a menu that allows user to toggle columns:

@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: detect dark mode, prefers-color-scheme
 title: Detect the dark mode
 ---

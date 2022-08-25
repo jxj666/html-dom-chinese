@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: cancelAnimationFrame, full page scroll, pageYOffset, requestAnimationFrame, scroll-behavior property, scrollIntoView, scrollIntoView behavior smooth, scrollTo, smoothly scroll
-title: Scroll to an element smoothly
+title: 平滑地滚动到一个元素
 ---
 
 As mentioned in the [Scroll to an element](/scroll-to-an-element) post, we can scroll to given element smoothly by passing `behavior: 'smooth'`:

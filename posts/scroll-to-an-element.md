@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: scrollIntoView, scrollIntoView behavior smooth, smoothly scroll
 title: Scroll to an element
 ---

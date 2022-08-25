@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: check code run browser, detect browser
 title: Check if the code is running in the browser
 ---

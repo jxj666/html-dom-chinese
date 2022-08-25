@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: navigator.platform, check mac browser
 title: Detect mac OS browser
 ---

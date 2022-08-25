@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addEventListener, drag ghost element, dragend event, dragstart event, setDragImage
 title: Show a ghost element when dragging an element
 ---

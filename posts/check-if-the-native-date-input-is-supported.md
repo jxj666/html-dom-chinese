@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords:
 title: Check if the native date input is supported
 ---

@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, addRange, copy text clipboard, createRange, execCommand, getRangeAt, getSelection, rangeCount, removeAllRanges, selectNodeContents, window get selection
-title: Copy highlighted code to the clipboard
+title: 将高亮显示的代码复制到剪贴板
 ---
 
 Allowing users to copy sample code is a common thing in the web development nowadays.

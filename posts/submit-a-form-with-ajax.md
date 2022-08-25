@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: Ajax form submit, XMLHttpRequest
 title: Submit a form with Ajax
 ---

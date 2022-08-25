@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords:
 title: Prevent the default action of an event
 ---

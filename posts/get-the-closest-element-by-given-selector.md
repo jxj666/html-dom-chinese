@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords:
 title: Get the closest element by given selector
 ---

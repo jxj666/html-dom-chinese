@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: addEventListener, clientX, clientY, getBoundingClientRect, mouse position
 title: Calculate the mouse position relative to an element
 ---

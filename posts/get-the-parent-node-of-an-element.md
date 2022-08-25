@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: parent node, parentNode
 title: Get the parent node of an element
 ---

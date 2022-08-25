@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: check element visible container, clientHeight, offsetTop, scrollTop
 title: Scroll an element to ensure it is visible in a scrollable container
 ---

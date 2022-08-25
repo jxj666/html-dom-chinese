@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: createRange, getSelection, removeAllRanges, select text content, selectNodeContents
 title: Select the text content of an element
 ---

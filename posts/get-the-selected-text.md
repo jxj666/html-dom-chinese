@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: get selected text, window getSelection
 title: Get the selected text
 ---

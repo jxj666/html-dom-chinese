@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: check touch events supported, DocumentTouch
 title: Check if the touch events are supported
 ---

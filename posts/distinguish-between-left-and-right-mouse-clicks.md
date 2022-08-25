@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: addEventListener, mousedown event, mouseup event, which button
 title: Distinguish between left and right mouse clicks
 ---

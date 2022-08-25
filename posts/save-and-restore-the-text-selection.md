@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addRange, getRangeAt, getSelection, rangeCount, removeAllRanges, restore range, window get selection
 title: Save and restore the text selection
 ---

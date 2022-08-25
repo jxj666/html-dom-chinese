@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords:
 title: Highlight an element when dragging a file over it
 ---

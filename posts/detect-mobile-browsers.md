@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: detect mobile browser, matchMedia, userAgent
 title: Detect mobile browsers
 ---

@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addEventListener, clientX, clientY, contextmenu event, custom context menu, detect click outside, getBoundingClientRect, mouse position, prevent default action, set element position
 title: Show a custom context menu at clicked position
 ---

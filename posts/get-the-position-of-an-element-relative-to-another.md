@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: element position, getBoundingClientRect
 title: Get the position of an element relative to another
 ---

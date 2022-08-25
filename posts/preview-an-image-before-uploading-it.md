@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords:
 title: Preview an image before uploading it
 ---

@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: scrollTo, scroll to top
 title: Scroll to top of the page
 ---

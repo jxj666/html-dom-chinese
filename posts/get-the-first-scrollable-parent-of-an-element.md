@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords:
 title: Get the first scrollable parent of an element
 ---

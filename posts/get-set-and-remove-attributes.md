@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: getAttribute, get element attribute, removeAttribute, remove element attribute, setAttribute, set element attribute
 title: Get, set and remove attributes
 ---

@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords:
-title: Sort a table by clicking its headers
+title: 通过单击表的标题对表进行排序
 ---
 
 Assume that we want to sort any column of the following table:

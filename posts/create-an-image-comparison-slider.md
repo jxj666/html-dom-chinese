@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, getBoundingClientRect, image comparison slider, mousedown event, mousemove event, mouseup event, previous sibling, previousElementSibling, next sibling, nextElementSibling, set css style, set element width
-title: Create an image comparison slider
+title: 创建一个图像比较滑块
 ---
 
 In this post, we'll create a slider for comparing two images visually. The slider has three elements organized as below:

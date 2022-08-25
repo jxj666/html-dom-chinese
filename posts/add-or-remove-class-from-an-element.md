@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: classList, classList add, classList remove, classList toggle
 title: Add or remove class from an element
 ---

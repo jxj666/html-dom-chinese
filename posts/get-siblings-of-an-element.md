@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: all siblings, next sibling, nextSibling, parentNode, previous sibling, previousSibling
 title: Get siblings of an element
 ---

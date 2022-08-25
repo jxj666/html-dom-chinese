@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: anchorNode, anchorOffset, createRange, focusNode, focusOffset, get selected text, range collapsed, setEnd, setStart, window getSelection
 title: Get the direction of the text selection
 ---

@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addEventListener, input event, keypress event, preventDefault, selectionEnd, selectionStart, setSelectionRange
 title: Allow to enter particular characters only
 ---

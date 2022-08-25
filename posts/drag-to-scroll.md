@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, clientX, clientY, cursor grab, cursor grabbing, drag element, drag scroll, mousedown event, mousemove event, mouseup event, remove CSS property, scrollLeft, scrollTop, set CSS property
-title: Drag to scroll
+title: 拖放式滚动
 ---
 
 User often uses the mouse to scroll in a scrollable container. In addition to that, some applications also allow user to scroll by dragging the element. You can see that feature implemented in a [PDF viewer](https://react-pdf-viewer.dev), [Figma](https://www.figma.com) and many more.

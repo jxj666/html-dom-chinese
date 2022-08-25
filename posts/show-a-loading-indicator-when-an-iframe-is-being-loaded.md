@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addEventListener, hide element, iframe load event, show loading indicator
 title: Show a loading indicator when an iframe is being loaded
 ---

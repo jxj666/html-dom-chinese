@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: addEventListener, attach event handler, detach event handler, removeEventListener
 title: Attach or detach an event handler
 ---

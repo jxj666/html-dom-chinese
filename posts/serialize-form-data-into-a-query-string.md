@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: encodeURIComponent, serialize form data
 title: Serialize form data into a query string
 ---

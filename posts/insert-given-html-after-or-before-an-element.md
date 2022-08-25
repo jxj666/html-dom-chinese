@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: insertAdjacentHTML
 title: Insert given HTML after or before an element
 ---

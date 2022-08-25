@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: insertBefore, nextSibling, parentNode, swap nodes
 title: Swap two nodes
 ---

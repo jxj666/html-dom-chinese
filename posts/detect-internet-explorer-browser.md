@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: navigator userAgent, check internet explorer browser
 title: Detect internet explorer browser
 ---

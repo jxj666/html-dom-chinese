@@ -1,7 +1,7 @@
 ---
-category: Tip
+category: 提示
 keywords: addEventListener, attach event handler, detach event handler, removeEventListener
-title: Attach event handlers inside other handlers
+title: 在其他处理程序中附加事件处理程序
 ---
 
 Usually, there are many event handlers which handle different events for different elements. These events could depend on each other.

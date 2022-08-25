@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords:
 title: Resize the width of a text box to fit its content automatically
 ---

@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords:
 title: Prevent the page from scrolling to an element when it is focused
 ---

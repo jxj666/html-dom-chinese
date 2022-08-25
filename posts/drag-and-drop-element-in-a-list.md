@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, drag drop list, getBoundingClientRect, insert node before, insertBefore, mousedown event, mousemove event, mouseup event, next sibling, nextElementSibling, previous sibling, previousElementSibling, sortable list, swap nodes
-title: Drag and drop element in a list
+title: 在列表中拖放元素
 ---
 
 In this example, we will create a sortable list whose items can be dragged and dropped inside it:

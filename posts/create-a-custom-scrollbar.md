@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: custom scrollbar, drag to scroll, fake scrollbar, scrollbar-color, scrollbar-width, webkit-scrollbar, webkit-scrollbar-track, webkit-scrollbar-thumb
-title: Create a custom scrollbar
+title: 创建自定义滚动条
 ---
 
 You can customize the look and feel of the browser's scrollbar by changing some CSS properties.

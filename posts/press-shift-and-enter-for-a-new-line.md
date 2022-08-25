@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: addEventListener, keydown event, keyCode, preventDefault, shift enter, shiftKey
 title: Press Shift and Enter for a new line
 ---

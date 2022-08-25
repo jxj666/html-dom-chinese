@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, getBoundingClientRect, mousedown event, mousemove event, mouseup event, previous sibling, previousElementSibling, next sibling, nextElementSibling, range input, range slider, scale image, set css style, set element width, transform scale, zoom image
-title: Zoom an image
+title: 缩放图像
 ---
 
 In this post, we'll see how to create an image zoomer which allows users to zoom an image using a [range slider](/create-a-range-slider). Here is the structure of the elements:

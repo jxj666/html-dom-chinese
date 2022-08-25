@@ -1,5 +1,5 @@
 ---
-category: Basic
+category: 基础
 keywords: display number of characters, maxlength attribute
 title: Count the number of characters of a textarea
 ---

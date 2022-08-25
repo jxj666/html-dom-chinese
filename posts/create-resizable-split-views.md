@@ -1,7 +1,7 @@
 ---
-category: Advanced
+category: 高级
 keywords: addEventListener, data attribute, getBoundingClientRect, mousedown event, mousemove event, mouseup event, next sibling, nextElementSibling, previous sibling, previousElementSibling, set css style, split view
-title: Create resizable split views
+title: 创建可调整大小的拆分视图
 ---
 
 In this post, we'll add an element to resize children of a given element.

@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: absolute position, element position, getBoundingClientRect
 title: Position an element absolutely to another element
 ---

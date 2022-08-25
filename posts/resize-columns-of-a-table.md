@@ -1,5 +1,5 @@
 ---
-category: Advanced
+category: 高级
 keywords:
 title: Resize columns of a table
 ---

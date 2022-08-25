@@ -1,5 +1,5 @@
 ---
-category: Intermediate
+category: 中级
 keywords: addEventListener, appendChild, clone node, iframe srcdoc, load event, print image, removeChild, set CSS style, setAttribute, window print
 title: Print an image
 ---
