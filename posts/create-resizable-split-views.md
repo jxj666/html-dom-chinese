@@ -1,5 +1,5 @@
 ---
-category: 高级
+category: Advanced
 keywords: addEventListener, data attribute, getBoundingClientRect, mousedown event, mousemove event, mouseup event, next sibling, nextElementSibling, previous sibling, previousElementSibling, set css style, split view
 title: 创建可调整大小的拆分视图
 ---

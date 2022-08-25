@@ -4,8 +4,7 @@ keywords: addEventListener, addRange, copy text clipboard, createRange, execComm
 title: 将高亮显示的代码复制到剪贴板
 ---
 
-Allowing users to copy sample code is a common thing in the web development nowadays.
-To demonstrate the implementation, we create two elements:
+在当今的web开发中，允许用户复制示例代码是一件很常见的事情。为了演示实现，我们创建了两个元素:
 
 ```html
 <pre id="sampleCode"><code>...</code></pre>
