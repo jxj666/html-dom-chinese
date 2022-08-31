@@ -8,6 +8,10 @@ Assume that we want to copy a given text, `text`, to the clipboard.
 
 In order to do that, we [create](/create-an-element) a fake `textarea` element with value as `text`. Next, we [select](/trigger-an-event) the content and execute the "Copy" command.
 
+假设我们想要复制一个给定的文本` text `到剪贴板。
+
+为了做到这一点，我们[create](/create-an-element)一个假的`textarea`元素，其值为`text`。接下来，我们[select](/trigger-an-event)内容并执行“Copy”命令。
+
 ```js
 // Create a fake textarea
 const textAreaEle = document.createElement('textarea');
@@ -44,9 +48,3 @@ try {
 }
 ```
 
-### See also
-
--   [Append to an element](/append-to-an-element)
--   [Copy highlighted code to the clipboard](/copy-highlighted-code-to-the-clipboard)
--   [Paste as plain text](/paste-as-plain-text)
--   [Remove an element](/remove-an-element)
