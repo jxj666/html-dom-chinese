@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Highlight an element when dragging a file over it
+title: 拖动文件到元素上时高亮显示该元素
 ---
 
 Assume that we have a droppable element as below

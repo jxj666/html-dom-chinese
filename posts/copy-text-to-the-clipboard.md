@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Copy text to the clipboard
+title: 将文本复制到剪贴板
 ---
 
 Assume that we want to copy a given text, `text`, to the clipboard.

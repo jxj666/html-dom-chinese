@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Download a file
+title: 下载一个文件
 ---
 
 ### 1. Use the download attribute
@@ -63,6 +63,6 @@ window.URL.revokeObjectURL(url);
 
 -   [Append to an element](/append-to-an-element)
 -   [Create an element](/create-an-element)
--   [Export a table to csv](/export-a-table-to-csv)
+-   [导出表格到csv](/export-a-table-to-csv)
 -   [Remove an element](/remove-an-element)
 -   [Trigger an event](/trigger-an-event)

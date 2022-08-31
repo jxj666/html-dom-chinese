@@ -55,7 +55,7 @@ elements.forEach(function(ele) {
 -   [Drag and drop element in a list](/drag-and-drop-element-in-a-list)
 -   [Drag and drop table column](/drag-and-drop-table-column)
 -   [Drag and drop table row](/drag-and-drop-table-row)
--   [Export a table to csv](/export-a-table-to-csv)
+-   [导出表格到csv](/export-a-table-to-csv)
 -   [Make a resizable element](/make-a-resizable-element)
 -   [Replace broken images](/replace-broken-images)
 -   [Resize columns of a table](/resize-columns-of-a-table)

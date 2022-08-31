@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: anchorNode, anchorOffset, createRange, focusNode, focusOffset, get selected text, range collapsed, setEnd, setStart, window getSelection
-title: Get the direction of the text selection
+title: 获得文本选择的方向
 ---
 
 The following function returns `forward` if user selected text from the left to right. It returns `backward` in the other case.

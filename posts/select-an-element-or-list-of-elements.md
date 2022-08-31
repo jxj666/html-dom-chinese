@@ -47,6 +47,6 @@ ele.querySelector('div.hello');
 -   [Drag and drop element in a list](/drag-and-drop-element-in-a-list)
 -   [Drag and drop table column](/drag-and-drop-table-column)
 -   [Drag and drop table row](/drag-and-drop-table-row)
--   [Export a table to csv](/export-a-table-to-csv)
+-   [导出表格到csv](/export-a-table-to-csv)
 -   [Loop over a nodelist](/loop-over-a-nodelist)
 -   [Sort a table by clicking its headers](/sort-a-table-by-clicking-its-headers)

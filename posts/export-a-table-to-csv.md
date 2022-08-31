@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Export a table to csv
+title: 导出表格到csv
 ---
 
 Assume that we have a `table` element and a `button` for exporting the table cells to CSV as following:
@@ -78,7 +78,7 @@ exportBtn.addEventListener('click', function () {
 
 ### Demo
 
-:demo[]{title="Export a table to csv" url="/demo/export-a-table-to-csv/index.html"}
+:demo[]{title="导出表格到csv" url="/demo/export-a-table-to-csv/index.html"}
 
 ### See also
 

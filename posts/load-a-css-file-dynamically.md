@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Load a CSS file dynamically
+title: 动态加载CSS文件
 ---
 
 ```js

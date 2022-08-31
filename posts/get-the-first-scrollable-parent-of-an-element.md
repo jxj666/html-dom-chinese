@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Get the first scrollable parent of an element
+title: 获取元素的第一个可滚动父元素
 ---
 
 Starting from the given `ele` element, we traverse all parents up to the root of document (`document.body`). For each parent node, we check if it is a [scrollable node](/check-if-an-element-is-scrollable).

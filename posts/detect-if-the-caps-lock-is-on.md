@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Detect if the caps lock is on
+title: 检测大写锁定是否开启
 ---
 
 Assume that we want to let users know if the caps lock is on while they are entering the value for an input (a password field, for example):

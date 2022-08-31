@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Get the default value of a CSS property
+title: 获取CSS属性的默认值
 ---
 
 The function below returns the default value of CSS `property` for given `tagName`:

@@ -57,7 +57,7 @@ If you want the handler to be invoke once, then look at the [Create one time eve
 -   [Drag and drop table column](/drag-and-drop-table-column)
 -   [Drag and drop table row](/drag-and-drop-table-row)
 -   [Drag to scroll](/drag-to-scroll)
--   [Export a table to csv](/export-a-table-to-csv)
+-   [导出表格到csv](/export-a-table-to-csv)
 -   [Get size of the selected file](/get-size-of-the-selected-file)
 -   [Get the size of an image](/get-the-size-of-an-image)
 -   [Highlight an element when dragging a file over it](/highlight-an-element-when-dragging-a-file-over-it)
