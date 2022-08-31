@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Change the website favicon
+title: 更改网站图标
 ---
 
 The following function changes the favicon to `url`:

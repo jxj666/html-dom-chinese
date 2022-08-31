@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Check if an element is scrollable
+title: 检查元素是否可滚动
 ---
 
 The following function returns `true` if the `ele` element is scrollable.

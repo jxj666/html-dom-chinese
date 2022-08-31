@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Communication between an iframe and its parent window
+title: iframe和父窗口之间的通信
 ---
 
 ### Send data from an iframe to its parent window

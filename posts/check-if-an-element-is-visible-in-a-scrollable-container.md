@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: check element visible container, clientHeight, offsetTop, scrollTop
-title: Check if an element is visible in a scrollable container
+title: 检查元素在可滚动容器中是否可见
 ---
 
 The following functions return `true` if the `ele` element is visible in its scrollable container:

@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Calculate the size of scrollbar
+title: 计算滚动条的大小
 ---
 
 ### 1. Subtract `clientWidth` from `offsetWidth`
