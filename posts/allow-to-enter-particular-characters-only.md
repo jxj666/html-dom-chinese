@@ -8,13 +8,21 @@ In this example, we will force users to enter characters from given set only. Sp
 
 Here is our input element:
 
+在本例中，我们将强制用户只输入给定字符集中的字符。具体来说，本演示中支持的字符包括数字和空格。当然，你也可以将这一理念应用于其他角色。
+
+这是我们的输入元素:
+
 ```html
 <input type="text" id="input" />
 ```
 
-### 1. Handle the events
+### 1. Handle the events  
+> 事件处理
+
 
 By handling the `keypress` event, we can prevent user from entering characters except digits and space:
+
+通过处理 `keypress` 事件，我们可以阻止用户输入除数字和空格外的字符:
 
 ```js
 const ele = document.getElementById('input');
@@ -34,6 +42,10 @@ ele.addEventListener('keypress', function (e) {
 
 It looks good but isn't enough since user is still able to paste or drag unsupported characters to the input.
 These cases can be handled by the `input` event:
+
+它看起来不错，但还不够，因为用户仍然可以将不支持的字符粘贴或拖动到输入。
+
+这些情况可以通过` input `事件来处理:
 
 ```js
 // Track the current value
@@ -58,6 +70,12 @@ It fixes the cases where users paste from the keyboard (`Ctrl + V`), context men
 
 But there's another issue. Calling `target.value = currentValue` will put the cursor at the end of input. We have to persist the cursor's position.
 
+这里我们检查值是否匹配正则表达式` /^[0-9\s]*$/ `，它包含数字和空格字符。
+
+它修复了用户从键盘粘贴(` Ctrl + V `)，上下文菜单或拖放文本输入的情况。
+
+但还有另一个问题。调用的目标。value = currentValue '将把光标放在输入的末尾。我们必须保持光标的位置。
+
 ```js
 // Track the current cursor's position
 const selection = {};
@@ -72,6 +90,9 @@ ele.addEventListener('keydown', function (e) {
 ```
 
 When user changes the input value, we will restore both the value and selection positions if the value isn't supported:
+
+当用户改变输入值时，如果该值不被支持，我们将恢复该值和选择位置:
+
 
 ```js
 ele.addEventListener('input', function (e) {
@@ -91,9 +112,18 @@ ele.addEventListener('input', function (e) {
 We can combine the tracked properties (`value`, `selectionStart` and `selectionEnd`) to a single variable as you
 see in the demo at the end.
 
-### 2. Use the special input
+我们可以将被跟踪的属性(` value `， ` selectionStart `和` selectionEnd `)合并到一个变量中
+
+见最后的演示。
+
+### 2. Use the special input 
+> 使用特殊输入
+
+
 
 We can use a special HTML 5 input to serve particular use cases:
+
+我们可以使用特殊的HTML 5输入来服务于特定的用例:
 
 | `input`                   | Description                       |
 | ------------------------- | --------------------------------- |
@@ -109,11 +139,11 @@ There are more built-in types that you can explore [here](https://developer.mozi
 
 In our specific example, `<input type="number" />` doesn't help because it doesn't allow to enter a space.
 
+您可以在[这里](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types)探索更多内置类型。
+
+在我们的特定示例中，` <input type="number" /> `没有帮助，因为它不允许输入空格。
+
 ### Demo
 
 :demo[]{title="Allow to enter particular characters only" url="/demo/allow-to-enter-particular-characters-only/index.html"}
 
-### See also
-
--   [Attach or detach an event handler](/attach-or-detach-an-event-handler)
--   [Prevent the default action of an event](/prevent-the-default-action-of-an-event)

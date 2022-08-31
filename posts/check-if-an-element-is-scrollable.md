@@ -6,6 +6,10 @@ title: 检查元素是否可滚动
 
 The following function returns `true` if the `ele` element is scrollable.
 
+如果`ele`元素是可滚动的，下面的函数返回`true`。
+
+
+
 ```js
 const isScrollable = function (ele) {
     // Compare the height to see if the element has scrollable content
@@ -22,7 +26,3 @@ const isScrollable = function (ele) {
 };
 ```
 
-### See also
-
--   [Get css styles of an element](/get-css-styles-of-an-element)
--   [Get the first scrollable parent of an element](/get-the-first-scrollable-parent-of-an-element)

@@ -6,6 +6,9 @@ title: 检查元素在可滚动容器中是否可见
 
 The following functions return `true` if the `ele` element is visible in its scrollable container:
 
+如果` ele `元素在其可滚动容器中可见，以下函数将返回` true `:
+
+
 ```js
 const isVisible = function (ele, container) {
     const eleTop = ele.offsetTop;
@@ -26,6 +29,12 @@ const isVisible = function (ele, container) {
 
 We also can perform the check based on the bounding rectangles of both element and container:
 
+我们还可以根据元素和容器的边界矩形来执行检查:
+
+```
+Element.getBoundingClientRect() 方法返回一个 DOMRect 对象，其提供了元素的大小及其相对于视口的位置。
+```
+
 ```js
 const isVisible = function (ele, container) {
     const { bottom, height, top } = ele.getBoundingClientRect();
@@ -35,7 +44,3 @@ const isVisible = function (ele, container) {
 };
 ```
 
-### See also
-
--   [Check if an element is in the viewport](/check-if-an-element-is-in-the-viewport)
--   [Scroll an element to ensure it is visible in a scrollable container](/scroll-an-element-to-ensure-it-is-visible-in-a-scrollable-container)

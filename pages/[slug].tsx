@@ -1,3 +1,7 @@
+/*
+ * @LastEditTime: 2022-08-31 17:03:04
+ * @LastEditors: jinxiaojian
+ */
 import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
@@ -26,13 +30,13 @@ const PostPage: React.FC<PostPageProps> = ({ content, frontMatter, prevPost, nex
     return (
         <PostLayout keywords={frontMatter ? frontMatter.keywords : ''} title={frontMatter.title}>
             <Markdown>{content}</Markdown>
-            <Spacer size="medium" />
-            <Pagination>
+            {/* <Spacer size="medium" /> */}
+            {/* <Pagination>
                 {prevPost && <PrevPagination href={`/${prevPost.slug}`}>{prevPost.title}</PrevPagination>}
             </Pagination>
             <Pagination>
                 {nextPost && <NextPagination href={`/${nextPost.slug}`}>{nextPost.title}</NextPagination>}
-            </Pagination>
+            </Pagination> */}
         </PostLayout>
     );
 };

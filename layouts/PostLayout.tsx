@@ -1,9 +1,13 @@
+/*
+ * @LastEditTime: 2022-08-31 16:59:55
+ * @LastEditors: jinxiaojian
+ */
 import { Heading, Spacer } from '@1milligram/design';
 import Head from 'next/head';
 import * as React from 'react';
 import { Layout } from './Layout';
 
-import { Ad } from '../components/Ad';
+// import { Ad } from '../components/Ad';
 
 export const PostLayout: React.FC<{
     keywords?: string;
@@ -25,9 +29,9 @@ export const PostLayout: React.FC<{
                     <Spacer size="extraLarge" />
                     <Heading level={1}>{title}</Heading>
                     <Spacer size="large" />
-                    <div className="block-ad">
+                    {/* <div className="block-ad">
                         <Ad />
-                    </div>
+                    </div> */}
                     <Spacer size="medium" />
                 </div>
                 {children}
