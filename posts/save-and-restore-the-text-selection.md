@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addRange, getRangeAt, getSelection, rangeCount, removeAllRanges, restore range, window get selection
-title: Save and restore the text selection
+title: 保存并恢复所选文本
 ---
 
 Here are the functions for saving and restoring the text selection:

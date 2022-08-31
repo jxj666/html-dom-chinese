@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addEventListener, hide element, iframe load event, show loading indicator
-title: Show a loading indicator when an iframe is being loaded
+title: 当iframe正在加载时，显示加载指示器
 ---
 
 It's always a good practice to let user know what is happenning. This post demonstrates a common case where we show a loading indicator while an iframe is being loaded.

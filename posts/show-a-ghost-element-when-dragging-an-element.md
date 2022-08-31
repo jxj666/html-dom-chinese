@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addEventListener, drag ghost element, dragend event, dragstart event, setDragImage
-title: Show a ghost element when dragging an element
+title: 拖动元素时显示虚元素
 ---
 
 Assume that we have a draggable element:

@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Scale a text to fit inside of an element
+title: 缩放文本以适应元素内部的大小
 ---
 
 Let's say that we want to scale a text inside a headline:

@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Resize the width of a text box to fit its content automatically
+title: 调整文本框的宽度以自动适应其内容
 ---
 
 Let's say that an input has the `id` of `textbox` as below:
