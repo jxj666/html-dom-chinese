@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addRange, clipboardData, createTextNode, deleteContents, execCommand, getRangeAt, getSelection, get text from clipboard, insertNode, insert text current position, paste plain text, queryCommandSupported removeAllRanges, selectNodeContents
-title: Paste as plain text
+title: 粘贴为纯文本
 ---
 
 Assume that we have a `contenteditable` element as below:

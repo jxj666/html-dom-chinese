@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Preview an image before uploading it
+title: 上传前预览图片
 ---
 
 We prepare the markup for a file input which allows to choose an image, and an `img` element for previewing the selected file.

@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: Blob, FileReader, readAsDataURL, resize image, toBlob, toDataURL, URL createObjectURL
-title: Resize an image
+title: 调整图像
 ---
 
 Assume that we want to resize an image to a given number of percentages. The image can be determined from a `file` input:

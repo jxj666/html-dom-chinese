@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: absolute position, element position, getBoundingClientRect
-title: Position an element absolutely to another element
+title: 将一个元素绝对定位到另一个元素
 ---
 
 It's a common requirement that asks for an element to be shown absolutely to a particular element. We can list some cases, such as

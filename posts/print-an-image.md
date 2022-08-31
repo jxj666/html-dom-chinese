@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addEventListener, appendChild, clone node, iframe srcdoc, load event, print image, removeChild, set CSS style, setAttribute, window print
-title: Print an image
+title: 打印一个图像
 ---
 
 You can print a web page by clicking the _Print_ menu of browser or pressing the shortcut `Ctrl+P` (or `command+P` on macOS). Calling the `window.print()` function provides the same result which prints the entire page.

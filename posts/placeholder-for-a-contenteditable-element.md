@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Placeholder for a contenteditable element
+title: 可满足元素的占位符
 ---
 
 Assume that we want to have a placeholder for given `contenteditable` element:

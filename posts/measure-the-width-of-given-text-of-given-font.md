@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords:
-title: Measure the width of given text of given font
+title: 测量给定字体的给定文本的宽度
 ---
 
 ### 1. Use the canvas' measureText() method
