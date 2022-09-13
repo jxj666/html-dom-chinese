@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@1milligram/design@^0.4.0":
+"@1milligram/design@^0.4.1":
   version "0.4.1"
   resolved "https://registry.npmjs.org/@1milligram/design/-/design-0.4.1.tgz#c218ab5578b4f09fda8a6edad369e93e90414ad6"
   integrity sha512-F1fXRibOdDJbGbjhNzu9obla7Yg2Th/iRbKI39qwllmkbhx5Q/cj5kyHZSax2fqenj69KR00HpnnBy31C3gwjw==

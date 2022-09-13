@@ -32,7 +32,7 @@
         "start": "serve out"
     },
     "dependencies": {
-        "@1milligram/design": "^0.4.0",
+        "@1milligram/design": "^0.4.1",
         "@1milligram/frame": "^1.0.1",
         "gray-matter": "^4.0.3",
         "next": "^12.2.5",
