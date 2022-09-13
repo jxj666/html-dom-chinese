@@ -15,6 +15,14 @@ There are two handlers here:
 
 We often create two separated handlers as following:
 
+
+通常，有许多事件处理程序为不同的元素处理不同的事件。这些事件可能相互依赖。
+让我们来看一个常见的用例。当用户点击一个按钮时，我们将在屏幕中央打开一个模态。按Escape键可以关闭模式。
+这里有两个处理程序:
+第一个处理按钮的单击事件
+第二个处理整个文档的keydown事件
+我们通常创建两个独立的处理程序如下:
+
 ```js
 const handleClick = function () {
     // Open the modal
@@ -31,6 +39,8 @@ document.addEventListener('keydown', handleKeydown);
 
 The `handleKeydown` handler depends on `handleClick` because we only check the pressed key if the modal is already opened.
 It's a common way to add a flag to track if the modal is opened or not:
+
+handleKeydown处理程序依赖于handleClick，因为我们只在模式已经打开时检查按下的键。添加一个标志来跟踪模式是否打开是一种常见的方法:
 
 ```js
 let isModalOpened = false;
@@ -54,6 +64,9 @@ More elements, more dependent events and more flags! As the result, it's more di
 Instead of adding event separately at first, we add an event handler right inside another one which it depends on.
 Here is how the tip approaches:
 
+更多的元素，更多的依赖事件和更多的标志!因此，维护代码更加困难。
+我们不是一开始就单独添加事件，而是在它所依赖的另一个事件处理程序中添加一个事件处理程序。以下是小费的做法:
+
 ```js
 const handleClick = function () {
     document.addEventListener('keydown', handleKeydown);
@@ -62,23 +75,6 @@ const handleClick = function () {
 
 No flag at all! The code is more readable and easier to understand.
 
-### Use cases
+根本没有旗帜!代码可读性更强，也更容易理解。
 
-You can see the tip used in another posts:
 
--   [Create a custom scrollbar](/create-a-custom-scrollbar)
--   [Create a range slider](/create-a-range-slider)
--   [Create an image comparison slider](/create-an-image-comparison-slider)
--   [Create resizable split views](/create-resizable-split-views)
--   [Drag to scroll](/drag-to-scroll)
--   [Make a draggable element](/make-a-draggable-element)
--   [Make a resizable element](/make-a-resizable-element)
--   [Print an image](/print-an-image)
--   [Resize columns of a table](/resize-columns-of-a-table)
--   [Show a custom context menu at clicked position](/show-a-custom-context-menu-at-clicked-position)
--   [Show or hide table columns](/show-or-hide-table-columns)
-
-### See also
-
--   [Attach or detach an event handler](/attach-or-detach-an-event-handler)
--   [Create one time event handler](/create-one-time-event-handler)

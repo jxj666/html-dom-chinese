@@ -5,6 +5,8 @@ title: 创建一个图像比较滑块
 ---
 
 In this post, we'll create a slider for comparing two images visually. The slider has three elements organized as below:
+在这篇文章中，我们将创建一个滑块，用于视觉上比较两张图片。滑块有三个元素，组织如下:
+
 
 ```html
 <div class="container">
@@ -22,6 +24,8 @@ In this post, we'll create a slider for comparing two images visually. The slide
 ### The markup
 
 Initially, the modified image will take half width of the container. It's positioned absolutely to the container:
+
+最初，修改后的图像将占用容器的一半宽度。它的位置与容器完全一致:
 
 ```css
 .container {
@@ -41,11 +45,15 @@ Initially, the modified image will take half width of the container. It's positi
 
 We don't use the `img` tag to display the modified image here because the image could be scaled. Instead, we use the modified image as the background of modified element:
 
+这里我们不使用img标记来显示修改后的图像，因为图像可以缩放。相反，我们使用修改后的图像作为修改后元素的背景:
+
 ```html
 <div class="modified-image" style="background-image: url('/path/to/modified/image.png')"></div>
 ```
 
 The modified element uses more styles for showing the background image at desired position:
+
+修改后的元素使用更多的样式来显示所需位置的背景图像:
 
 ```css
 .modified-image {
@@ -57,6 +65,8 @@ The modified element uses more styles for showing the background image at desire
 ```
 
 It's a lot easier to set the position for the resizer. It is displayed at the center of container:
+
+设置调整器的位置要容易得多。它显示在容器的中心:
 
 ```css
 .resizer {
@@ -83,6 +93,10 @@ When user moves the resizer, we calculate how far the mouse has been moved. Then
 
 For more information about the idea, you can look at the [create resizable split views](/create-resizable-split-views) post.
 Here is the piece of code:
+
+当用户移动调整器时，我们计算鼠标移动了多远。然后根据当前鼠标位置为修改后的和调整大小的元素设置位置。
+
+关于这个想法的更多信息，你可以查看创建可调整大小的拆分视图的帖子。下面是这段代码:
 
 ```js
 // Query the element
@@ -130,6 +144,8 @@ resizer.addEventListener('mousedown', mouseDownHandler);
 When user moves the mouse around, we have to make sure that the mouse isn't moved to out of the container.
 That's why we have to compare the `newLeftWidth` with 0 and 100 percentages:
 
+当用户移动鼠标时，我们必须确保鼠标没有移动到容器外。这就是为什么我们必须将newLeftWidth与0和100百分比进行比较:
+
 ```js
 const mouseMoveHandler = function(e) {
     ...
@@ -142,22 +158,10 @@ const mouseMoveHandler = function(e) {
 > **Tip**
 >
 > This post uses the [Attach event handlers inside other handlers](/attach-event-handlers-inside-other-handlers) tip
+> 本文使用其他处理程序提示中的附加事件处理程序
 
-Below is the demo that you can play with.
-
-_Photo by [frank mckenna](https://unsplash.com/@frankiefoto) on [Unsplash](https://unsplash.com/photos/OD9EOzfSOh0)_
 
 ### Demo
 
 :demo[]{title="Create an image comparison slider" url="/demo/create-an-image-comparison-slider/index.html"}
 
-### See also
-
--   [Attach or detach an event handler](/attach-or-detach-an-event-handler)
--   [Create a range slider](/create-a-range-slider)
--   [Create resizable split views](/create-resizable-split-views)
--   [Drag to scroll](/drag-to-scroll)
--   [Get siblings of an element](/get-siblings-of-an-element)
--   [Make a draggable element](/make-a-draggable-element)
--   [Set css style for an element](/set-css-style-for-an-element)
--   [Zoom an image](/zoom-an-image)
