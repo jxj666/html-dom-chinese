@@ -28,8 +28,8 @@ const HomePage: React.FC<{
             <div className="block-container">
                 <div className="block-home__hero">
                     <Spacer size="extraLarge" />
-                    <Heading level={1}>Manage HTML DOM</Heading>
-                    <Heading level={4}>with vanilla JavaScript</Heading>
+                    <Heading level={1}>HTML DOM</Heading>
+                    {/* <Heading level={4}>with vanilla JavaScript</Heading> */}
                     <Spacer size="large" />
                 </div>
                 {Object.keys(groupByCategory)
