@@ -16,9 +16,7 @@ Here is our input element:
 <input type="text" id="input" />
 ```
 
-### 1. Handle the events  
-> 事件处理
-
+### 1. Handle the events  事件处理
 
 By handling the `keypress` event, we can prevent user from entering characters except digits and space:
 
@@ -116,8 +114,7 @@ see in the demo at the end.
 
 见最后的演示。
 
-### 2. Use the special input 
-> 使用特殊输入
+### 2. Use the special input 使用特殊输入
 
 
 

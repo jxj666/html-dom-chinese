@@ -1,10 +1,10 @@
 ---
 category: 中级
 keywords:
-title: 测量给定字体的给定文本的宽度
+title: 测量给定字体的给定文本的宽度 *
 ---
 
-### 1. Use the canvas' measureText() method
+### 1. Use the canvas' measureText() method  使用canvas的measureText()方法
 
 ```js
 const measureWidth = function (text, font) {
@@ -25,7 +25,7 @@ const measureWidth = function (text, font) {
 };
 ```
 
-### 2. Use a fake element
+### 2. Use a fake element 使用假元素
 
 ```js
 const measureWidth = function (text, font) {
@@ -55,11 +55,3 @@ const measureWidth = function (text, font) {
 };
 ```
 
-### See also
-
--   [Create an element](/create-an-element)
--   [Get CSS styles of an element](/get-css-styles-of-an-element)
--   [Remove an element](/remove-an-element)
--   [Resize the width of a text box to fit its content automatically](/resize-the-width-of-a-text-box-to-fit-its-content-automatically)
--   [Scale a text to fit inside of an element](/scale-a-text-to-fit-inside-of-an-element)
--   [Set CSS style for an element](/set-css-style-for-an-element)
