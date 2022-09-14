@@ -55,3 +55,6 @@ const measureWidth = function (text, font) {
 };
 ```
 
+### Demo
+
+:demo[]{title="Allow to enter particular characters only" url="/demo/test-text-width/index.html"}

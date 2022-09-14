@@ -8,7 +8,7 @@ In this example, we will force users to enter characters from given set only. Sp
 
 Here is our input element:
 
-在本例中，我们将强制用户只输入给定字符集中的字符。具体来说，本演示中支持的字符包括数字和空格。当然，你也可以将这一理念应用于其他角色。
+在本例中，我们将强制用户只输入给定字符集中的字符。具体来说，本演示中支持的字符包括数字和空格。当然，你也可以将这一理念应用于其他功能。
 
 这是我们的输入元素:
 
@@ -72,7 +72,7 @@ But there's another issue. Calling `target.value = currentValue` will put the cu
 
 它修复了用户从键盘粘贴(` Ctrl + V `)，上下文菜单或拖放文本输入的情况。
 
-但还有另一个问题。调用的目标。value = currentValue '将把光标放在输入的末尾。我们必须保持光标的位置。
+但还有另一个问题。调用的 value = currentValue 将把光标放在输入的末尾。我们必须保持光标的位置。
 
 ```js
 // Track the current cursor's position
@@ -106,6 +106,8 @@ ele.addEventListener('input', function (e) {
     }
 });
 ```
+
+> **HTMLInputElement.setSelectionRange **方法用于设定<input> 或 <textarea> 元素中当前选中文本的起始和结束位置。
 
 We can combine the tracked properties (`value`, `selectionStart` and `selectionEnd`) to a single variable as you
 see in the demo at the end.
