@@ -39,9 +39,9 @@ In order to make it draggable, we need to handle three events:
 
 为了使它可拖动，我们需要处理三个事件:
 
-- 元素上的mousedown:跟踪鼠标的当前位置
-- 对文档进行mouemove:计算鼠标移动的距离，并确定元素的位置
-- 在文档上mouseup:删除事件处理程序
+- 元素上的 mousedown 事件 : 跟踪鼠标的当前位置
+- document 上的 mouemove 事件 : 计算鼠标移动的距离，并确定元素的位置
+- document 上的 mouseup 事件 : 删除事件处理程序
 
 ```js
 // The current position of mouse
@@ -89,6 +89,8 @@ ele.addEventListener('mousedown', mouseDownHandler);
 > **Tip**
 >
 > This post uses the [Attach event handlers inside other handlers](/attach-event-handlers-inside-other-handlers) tip
+> 这个例子用了 在其他处理程序中附加事件处理程序 方式
+
 
 
 ### Demo
