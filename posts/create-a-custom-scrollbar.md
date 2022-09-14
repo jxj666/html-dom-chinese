@@ -7,7 +7,8 @@ title: 创建自定义滚动条 *
 You can customize the look and feel of the browser's scrollbar by changing some CSS properties.
 For example, we can use the `:-webkit-scrollbar` styles on the latest version of Chrome, Edge and Safari:
 
-您可以通过更改一些CSS属性来定制浏览器滚动条的外观和感觉。例如，我们可以在最新版本的Chrome, Edge和Safari上使用:-webkit-scrollbar样式:
+您可以通过更改一些CSS属性来定制浏览器滚动条的外观和感觉。
+例如，我们可以在最新版本的Chrome, Edge和Safari上使用:-webkit-scrollbar样式:
 
 ```css
 body::-webkit-scrollbar {
@@ -96,7 +97,7 @@ To do so, we will use the third approach mentioned in the [Position an element a
 
 在这一步中，我们将创建一个表示假滚动条的元素。它将位于包装器的右侧，并具有与包装器相同的高度。
 
-为此，我们将使用在Position a element absolute To another element post中提到的第三种方法:
+为此，我们将使用在 将一个元素绝对定位到另一个元素的位置 中提到的第三种方法:
 
 ```html
 <div id="wrapper">...</div>
@@ -150,8 +151,8 @@ The scrollbar consists of two parts:
 -   A thumb element that user can click on and drag to scroll
 
 滚动条由两部分组成:
-一个跟踪元素，让用户知道有一个滚动条。它需要完整大小的滚动条
-一个拇指元素，用户可以点击和拖动滚动
+- 一个跟踪元素，让用户知道有一个滚动条。它需要完整大小的滚动条
+- 一个拇指元素，用户可以点击和拖动滚动
 
 ```html
 <div id="scrollbar">
