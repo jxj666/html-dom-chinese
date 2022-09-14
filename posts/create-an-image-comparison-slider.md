@@ -141,6 +141,8 @@ const mouseMoveHandler = function (e) {
 resizer.addEventListener('mousedown', mouseDownHandler);
 ```
 
+> Element.getBoundingClientRect() 方法返回一个 DOMRect 对象，其提供了元素的大小及其相对于视口的位置。
+
 When user moves the mouse around, we have to make sure that the mouse isn't moved to out of the container.
 That's why we have to compare the `newLeftWidth` with 0 and 100 percentages:
 

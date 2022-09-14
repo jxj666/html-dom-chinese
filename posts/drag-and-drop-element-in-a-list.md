@@ -34,7 +34,7 @@ Each item has class of `draggable` indicating that user can drag it:
 
 By using the similar approach mentioned in the [_Make a draggable element_](/make-a-draggable-element) post, we can turn each item into a draggable element:
 
-通过使用在Make a draggable element post中提到的类似方法，我们可以将每个项目变成一个draggable element:
+通过使用在制作一个可拖动的元素中提到的类似方法，我们可以将每个项目变成一个可拖动元素:
 
 ```js
 // The current dragging item

@@ -33,6 +33,7 @@ It's recommended to look at this [post](/make-a-draggable-element) to see how we
 In our case, the resizer can be dragged horizontally. First, we have to store the mouse position and the left side's width when user starts clicking the resizer:
 
 建议大家看看这篇文章，看看如何让一个元素可以拖拽。
+
 在我们的例子中，调整器可以水平拖动。首先，当用户开始点击调整尺寸时，我们必须存储鼠标位置和左侧宽度:
 
 ```js
@@ -68,7 +69,7 @@ resizer.addEventListener('mousedown', mouseDownHandler);
 Looking at the structure of our markup, the left and right side are previous and next sibling of resizer.
 They can be [retrieved](/get-siblings-of-an-element) as you see above:
 
-看看我们的标记结构，左边和右边分别是resizer的上一个和下一个兄弟。如上图所示，它们可以被检索:
+根据我们的标记结构，左边和右边分别是resizer的上一个和下一个兄弟。如上图所示，它们可以被检索:
 
 ```js
 const leftSide = resizer.previousElementSibling;
@@ -292,7 +293,6 @@ const mouseMoveHandler = function(e) {
 > Using custom `data-` attribute is a good way to manage variables associated with the element
 > 使用自定义数据属性是管理与元素相关的变量的好方法
 
-Enjoy the demo!
 
 ### Demo
 

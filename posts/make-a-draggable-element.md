@@ -1,16 +1,22 @@
 ---
 category: 高级
 keywords:
-title: 制作一个可拖动的元素
+title: 制作一个可拖动的元素 *
 ---
 
 Assume that we want to turn the following element to draggable element:
+
+假设我们想把下面的元素变成可拖拽元素:
+
 
 ```html
 <div id="dragMe" class="draggable">Drag me</div>
 ```
 
 The element needs to have the following styles:
+
+元素需要具有以下样式:
+
 
 ```css
 .draggable {
@@ -30,6 +36,12 @@ In order to make it draggable, we need to handle three events:
 -   `mousedown` on the element: Track the current position of mouse
 -   `mousemove` on `document`: Calculate how far the mouse has been moved, and determine the position of element
 -   `mouseup` on `document`: Remove the event handlers of `document`
+
+为了使它可拖动，我们需要处理三个事件:
+
+- 元素上的mousedown:跟踪鼠标的当前位置
+- 对文档进行mouemove:计算鼠标移动的距离，并确定元素的位置
+- 在文档上mouseup:删除事件处理程序
 
 ```js
 // The current position of mouse
@@ -78,34 +90,9 @@ ele.addEventListener('mousedown', mouseDownHandler);
 >
 > This post uses the [Attach event handlers inside other handlers](/attach-event-handlers-inside-other-handlers) tip
 
-### Use cases
-
-We can use the technique in this post to
-
-1. [Create a range slider](/create-a-range-slider)
-2. [Create an image comparison slider](/create-an-image-comparison-slider)
-3. [Create resizable split views](/create-resizable-split-views)
-4. [Drag to scroll](/drag-to-scroll)
-5. [Resize columns of a table](/resize-columns-of-a-table)
 
 ### Demo
 
 :demo[]{title="Make a draggable element" url="/demo/make-a-draggable-element/index.html"}
 
-### See also
 
--   [Attach event handlers inside other handlers](/attach-event-handlers-inside-other-handlers)
--   [Attach or detach an event handler](/attach-or-detach-an-event-handler)
--   [Calculate the mouse position relative to an element](/calculate-the-mouse-position-relative-to-an-element)
--   [Create a range slider](/create-a-range-slider)
--   [Create an image comparison slider](/create-an-image-comparison-slider)
--   [Create resizable split views](/create-resizable-split-views)
--   [Drag and drop element in a list](/drag-and-drop-element-in-a-list)
--   [Drag and drop table column](/drag-and-drop-table-column)
--   [Drag and drop table row](/drag-and-drop-table-row)
--   [Drag to scroll](/drag-to-scroll)
--   [Make a resizable element](/make-a-resizable-element)
--   [Resize columns of a table](/resize-columns-of-a-table)
--   [Set css style for an element](/set-css-style-for-an-element)
--   [Show a ghost element when dragging an element](/show-a-ghost-element-when-dragging-an-element)
--   [Zoom an image](/zoom-an-image)
