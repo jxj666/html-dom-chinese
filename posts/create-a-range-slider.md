@@ -1,7 +1,7 @@
 ---
 category: 高级
 keywords: addEventListener, getBoundingClientRect, mousedown event, mousemove event, mouseup event, previous sibling, previousElementSibling, next sibling, nextElementSibling, range input, range slider, set css style, set element width
-title: 创建一个范围滑动器
+title: 创建一个范围滑动器 
 ---
 
 This post introduces two popular ways to create a range slider.

@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: clipboardData, createObjectURL, FormData, getAsFile, paste event, paste image from clipboard, XMLHttpRequest
-title: 从剪贴板粘贴图像
+title: 从剪贴板粘贴图像 *
 ---
 
 

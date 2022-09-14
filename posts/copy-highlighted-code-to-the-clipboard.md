@@ -1,7 +1,7 @@
 ---
 category: 高级
 keywords: addEventListener, addRange, copy text clipboard, createRange, execCommand, getRangeAt, getSelection, rangeCount, removeAllRanges, selectNodeContents, window get selection
-title: 将高亮显示的代码复制到剪贴板
+title: 将高亮显示的代码复制到剪贴板 *
 ---
 
 在当今的web开发中，允许用户复制示例代码是一件很常见的事情。为了演示实现，我们创建了两个元素:

@@ -1,7 +1,7 @@
 ---
 category: 高级
 keywords:
-title: 调节表格中列的大小
+title: 调节表格中列的大小 *
 ---
 
 Assume that we want to resize any column of the following table:

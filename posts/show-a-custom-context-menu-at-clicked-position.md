@@ -1,7 +1,7 @@
 ---
 category: 中级
 keywords: addEventListener, clientX, clientY, contextmenu event, custom context menu, detect click outside, getBoundingClientRect, mouse position, prevent default action, set element position
-title: 在单击位置显示自定义上下文菜单
+title: 在单击位置显示自定义上下文菜单 *
 ---
 
 The browser will show the default context menu when user right-clicks on the page. Sometimes, we want to replace the default menu with our own menu that allows user to perform additional actions.
