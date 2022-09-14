@@ -271,11 +271,6 @@ const swap = function (nodeA, nodeB) {
 };
 ```
 
-Following is the final demo. Try to drag and drop any item!
-
-下面是最后一个演示。尝试拖放任何项目!
-
-
 
 ### Demo
 
