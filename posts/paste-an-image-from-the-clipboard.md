@@ -28,7 +28,7 @@ document.addEventListener('paste', function (evt) {
 
 From the image blob, we can preview it as you see in the live example below:
 
-从图像blob中，我们可以预览它，就像你在下面的实时示例中看到的那样:
+利用图像blob，我们可以预览它，就像你在下面的实时示例中看到的那样:
 
 ```js
 // Assume that we have an `img` element

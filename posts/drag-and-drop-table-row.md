@@ -1,7 +1,7 @@
 ---
 category: 高级
 keywords: addEventListener, drag drop list, drag drop table row, getBoundingClientRect, insert node before, insertBefore, mousedown event, mousemove event, mouseup event, next sibling, nextElementSibling, previous sibling, previousElementSibling, sortable list, swap nodes
-title: 拖放表格的行 *
+title: 拖放表格的行 
 ---
 
 Before taking a look at this example, it's recommended to visit this [post](/drag-and-drop-element-in-a-list) to know how we can drag and drop element in a list.
