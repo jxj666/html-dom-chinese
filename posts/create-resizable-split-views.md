@@ -189,7 +189,7 @@ Below is the demo that you can play with.
 
 It's easy to support splitting the side vertically. Instead of updating the width of left side, now we update the height of the top side:
 
-它很容易支撑将侧面垂直分开。而不是更新左侧的宽度，现在我们更新顶部的高度:
+很容易将侧面调整改为垂直调整 , 我们只需要更新顶部元素的高度:
 
 ```js
 const prevSibling = resizer.previousElementSibling;
@@ -229,6 +229,7 @@ We have two resizer elements currently. To indicate the splitting direction for 
 
 
 假设右边想被分成两个可调整大小的元素。
+
 我们目前有两个调整器元素。为了指示每个调整器的拆分方向，我们添加了一个自定义属性data-direction:
 
 
@@ -257,7 +258,7 @@ const direction = resizer.getAttribute('data-direction') || 'horizontal';
 The logic of setting the width or height of previous sibling depends on the direction:
 
 
-设置前一个兄弟姐妹的宽度或高度的逻辑取决于方向:
+设置上一个兄弟元素的宽度/高度的逻辑取决于方向:
 
 
 
