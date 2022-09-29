@@ -79,12 +79,12 @@ In order to allow user to resize `col`, we have to handle three events:
 
 处理调整器的事件
 我们将实现一个函数createResizableColumn，它接受两个形参:
-Col表示表头
-表示列内的调整器元素的调整器
+- Col表示表头
+- resizer表示列内的调整器元素的调整器
 为了允许用户调整col的大小，我们必须处理三个事件:
-在调整器上的mousedown:跟踪鼠标的当前位置
-在文档上移动鼠标:计算鼠标移动了多远，并调整列的宽度
-在文档上mouseup:删除文档的事件处理程序
+- 在调整器上的mousedown:跟踪鼠标的当前位置
+- 在文档上mousemove:计算鼠标移动了多远，并调整列的宽度
+- 在文档上mouseup:删除文档的事件处理程序
 
 
 
@@ -135,7 +135,8 @@ const createResizableColumn = function (col, resizer) {
 We can improve the user experience a little bit. When user hovers or clicks on the resizer, it can be hightlighted.
 To demonstrate the idea in the most simple way, we add a solid border to the `:hover` selector:
 
-我们可以稍微改进一下用户体验。当用户悬停或点击调整器时，它可以被高亮显示。为了以最简单的方式演示这个想法，我们在:hover选择器中添加了一个实线边框:
+我们可以稍微改进一下用户体验。当用户悬停或点击调整器时，它可以被高亮显示。
+为了以最简单的方式演示这个想法，我们在:hover选择器中添加了一个边框:
 
 ```css
 .resizer:hover,

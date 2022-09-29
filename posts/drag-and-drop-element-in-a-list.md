@@ -256,7 +256,7 @@ const mouseMoveHandler = function(e) {
 
 Here, `swap` is a small function for [swapping two nodes](/swap-two-nodes):
 
-这里，swap是一个交换两个节点的小函数:
+这里，swap是一个交换两个节点元素的函数:
 
 ```js
 const swap = function (nodeA, nodeB) {
