@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Select the children of an element
+title: 选择元素的子元素
 ---
 
 Get the children nodes of the `ele` element:

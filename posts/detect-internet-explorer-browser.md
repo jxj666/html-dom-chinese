@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: navigator userAgent, check internet explorer browser
-title: Detect internet explorer browser
+title: 检测IE浏览器
 ---
 
 Check if the current browser is Internet Explorer (IE):

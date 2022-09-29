@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords:
-title: Set CSS style for an element
+title: 设置元素的CSS样式
+
+
 ---
 
 ### Set a CSS style

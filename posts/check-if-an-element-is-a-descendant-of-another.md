@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Check if an element is a descendant of another
+title: 检查一个元素是否是另一个元素的后代
 ---
 
 Assume that we want to find out if the `child` element is a descendant of the `parent` element.

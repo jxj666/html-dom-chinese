@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Select the text of a textarea automatically
+title: 自动选择文本区的文本
 ---
 
 Assume that `ele` represents a textarea element.

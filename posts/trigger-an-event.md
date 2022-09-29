@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords:
-title: Trigger an event
+title: 触发一个事件
+
+
 ---
 
 ### Trigger event for inputs

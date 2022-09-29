@@ -1,7 +1,8 @@
 ---
 category: 基础
 keywords:
-title: Get the size of an image
+title: 获取图像的大小
+
 ---
 
 ### Image is already loaded

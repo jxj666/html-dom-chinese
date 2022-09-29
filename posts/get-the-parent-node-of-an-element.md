@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: parent node, parentNode
-title: Get the parent node of an element
+title: 获取元素的父节点
 ---
 
 Returns the parent node of the `ele` element:

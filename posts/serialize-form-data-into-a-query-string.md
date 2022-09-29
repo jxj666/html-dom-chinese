@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: encodeURIComponent, serialize form data
-title: Serialize form data into a query string
+title: 将表单数据序列化为查询字符串
 ---
 
 The following function serializes the form data which consists of names and values of its fields:

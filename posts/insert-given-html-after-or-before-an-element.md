@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: insertAdjacentHTML
-title: Insert given HTML after or before an element
+title: 在元素的后面或前面插入给定的HTML
 ---
 
 ### Insert after

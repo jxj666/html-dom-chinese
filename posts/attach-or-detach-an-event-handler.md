@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: addEventListener, attach event handler, detach event handler, removeEventListener
-title: Attach or detach an event handler
+title: 附加或分离事件处理程序
 ---
 
 ### Use the on attribute (not recommended)

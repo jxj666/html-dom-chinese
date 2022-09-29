@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Select an element or list of elements
+title: 选择一个元素或元素列表
 ---
 
 ### Select an element by given ID

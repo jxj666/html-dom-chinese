@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get the closest element by given selector
+title: 通过给定的选择器获取最近的元素
 ---
 
 ### 1. Use the native closest() method

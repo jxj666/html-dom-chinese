@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Detect clicks outside of an element
+title: 检测元素外部的单击
 ---
 
 Check if a click was outside of the `ele` element:

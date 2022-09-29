@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Determine the height and width of an element
+title: 确定元素的高度和宽度
 ---
 
 Assume that `ele` represents the DOM of element you want to calculate the size.

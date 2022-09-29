@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: createRange, getSelection, removeAllRanges, select text content, selectNodeContents
-title: Select the text content of an element
+title: 选择一个元素的文本内容
 ---
 
 The following function selects the text content of the `ele` element:

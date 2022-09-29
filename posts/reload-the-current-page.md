@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Reload the current page
+title: 重新加载当前页面
 ---
 
 ### Reload and keep the POST data

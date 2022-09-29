@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: insertBefore, nextSibling, parentNode, swap nodes
-title: Swap two nodes
+title: 交换两个节点
 ---
 
 The function below swaps two given nodes, `nodeA` and `nodeB`:

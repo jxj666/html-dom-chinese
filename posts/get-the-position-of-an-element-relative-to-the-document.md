@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get the position of an element relative to the document
+title: 获取元素相对于文档的位置
 ---
 
 ```js

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: check touch events supported, DocumentTouch
-title: Check if the touch events are supported
+title: 检查是否支持触摸事件
 ---
 
 Check if the current browser supports the touch events:

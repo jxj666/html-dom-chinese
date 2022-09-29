@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Put cursor at the end of an input
+title: 将光标放在输入的末尾
 ---
 
 Assume that we have a text field representing the full name of an user. There is also a _Edit_ button for updating the full name.

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Create one time event handler
+title: 创建一次性事件处理程序
 ---
 
 ### 1. Use the once option

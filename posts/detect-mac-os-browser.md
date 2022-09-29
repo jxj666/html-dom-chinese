@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: navigator.platform, check mac browser
-title: Detect mac OS browser
+title: 检测mac OS浏览器
 ---
 
 Check if the current browser runs on Mac:

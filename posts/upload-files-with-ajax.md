@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: Ajax file upload, FormData, XMLHttpRequest
-title: Upload files with Ajax
+title: 使用Ajax上传文件
 ---
 
 The function below sends selected files from a `fileEle` element to a back-end:

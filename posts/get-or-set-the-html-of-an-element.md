@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: get element HTML, HTML of element, innerHTML, set element HTML
-title: Get or set the HTML of an element
+title: 获取或设置元素的HTML
 ---
 
 ### Get the HTML

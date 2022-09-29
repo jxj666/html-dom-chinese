@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: addEventListener, clientX, clientY, getBoundingClientRect, mouse position
-title: Calculate the mouse position relative to an element
+title: 计算相对于元素的鼠标位置
 ---
 
 The following code calculates the mouse position relative to the clicked element:

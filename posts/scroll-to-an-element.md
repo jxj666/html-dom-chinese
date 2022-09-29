@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: scrollIntoView, scrollIntoView behavior smooth, smoothly scroll
-title: Scroll to an element
+title: 滚动到一个元素
 ---
 
 ### Scroll to the ele element

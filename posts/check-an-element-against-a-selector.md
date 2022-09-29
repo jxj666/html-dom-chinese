@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Check an element against a selector
+title: 根据选择器检查元素
 ---
 
 ```js

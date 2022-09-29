@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: display number of characters, maxlength attribute
-title: Count the number of characters of a textarea
+title: 计算文本区域的字符数
 ---
 
 Assume that we have a `textarea` and a normal `div` elements for showing how many characters user has been entering:

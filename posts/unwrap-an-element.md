@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Unwrap an element
+title: 打开一个元素
 ---
 
 Remove the `ele` element except its children:

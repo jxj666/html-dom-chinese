@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Create an element
+title: 创建一个元素
 ---
 
 ### Create new element

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Prevent the default action of an event
+title: 防止事件的默认动作
 ---
 
 ### 1. Return `false` for the `on<event>`

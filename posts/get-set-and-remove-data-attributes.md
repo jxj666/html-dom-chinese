@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get, set and remove data attributes
+title: 获取、设置和删除数据属性
 ---
 
 ### Get the data attribute's value

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: addEventListener, mousedown event, mouseup event, which button
-title: Distinguish between left and right mouse clicks
+title: 区分鼠标的左右点击
 ---
 
 The `mousedown` and `mouseup` event handlers let us know which mouse button is clicked:

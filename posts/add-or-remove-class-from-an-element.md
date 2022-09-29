@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: classList, classList add, classList remove, classList toggle
-title: Add or remove class from an element
+title: 从元素中添加或删除类
 ---
 
 ### Add a class to an element

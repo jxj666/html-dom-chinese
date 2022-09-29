@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: overflow hidden, prevent scrolling, remove CSS style, removeProperty, set CSS styles
-title: Prevent body from scrolling when opening a modal
+title: 当打开一个模式时，防止主体滚动
 ---
 
 ```js

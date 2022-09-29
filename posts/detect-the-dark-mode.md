@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: detect dark mode, prefers-color-scheme
-title: Detect the dark mode
+title: 检测暗模式
 ---
 
 Modern operating systems such as macOS, Windows 10 allow users to choose the appearance they would like to see in all applications.

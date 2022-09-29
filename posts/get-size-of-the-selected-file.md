@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get size of the selected file
+title: 获取所选文件的大小
 ---
 
 In the markup below, we have two elements defined by different `id` attributes.

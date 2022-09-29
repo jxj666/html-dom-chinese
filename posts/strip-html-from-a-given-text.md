@@ -1,7 +1,8 @@
 ---
 category: 基础
 keywords:
-title: Strip HTML from a given text
+title: 从给定的HTML中剥离出文本
+
 ---
 
 ### 1. Get text content from a fake element (not recommended)

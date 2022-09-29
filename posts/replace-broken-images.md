@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Replace broken images
+title: 更换加载失败的的图片
 ---
 
 Replace the broken images with an image telling visitors that they are not found:

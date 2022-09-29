@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Prevent the page from scrolling to an element when it is focused
+title: 防止页面在聚焦时滚动到某个元素
 ---
 
 An element can be focused by either using the `autofocus="true"` attribute or calling the `element.focus()` method. In both cases, the browser will automatically scroll the element into the viewport.

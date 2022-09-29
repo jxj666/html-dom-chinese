@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get CSS styles of an element
+title: 获取元素的CSS样式
 ---
 
 We can get all CSS styles via the `getComputedStyle` method:

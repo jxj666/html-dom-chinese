@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get or set the document title
+title: 获取或设置文档标题
 ---
 
 ### Get the document title

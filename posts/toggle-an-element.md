@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Toggle an element
+title: 切换一个元素
 ---
 
 To toggle the element, we update the `display` property:

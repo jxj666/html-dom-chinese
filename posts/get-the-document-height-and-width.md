@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: clientHeight, clientWidth, document height, document width, offsetHeight, offsetWidth, scrollHeight, scrollWidth
-title: Get the document height and width
+title: 获取文档的高度和宽度
 ---
 
 ### Get the document height

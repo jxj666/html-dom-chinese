@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Remove an element
+title: 删除一个元素
 ---
 
 ### 1. Use the remove method

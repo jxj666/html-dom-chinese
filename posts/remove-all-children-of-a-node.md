@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Remove all children of a node
+title: 删除节点的所有子节点
 ---
 
 ### 1. Empty the inner HTML (not recommended)

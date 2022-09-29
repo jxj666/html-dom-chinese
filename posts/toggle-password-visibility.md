@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Toggle password visibility
+title: 切换密码可见性
 ---
 
 Assume that we have two elements. A password element, and a button for toggling the visibility of the password:

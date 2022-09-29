@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Go back to the previous page
+title: 返回到上一页
 ---
 
 ```js

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Loop over a nodelist
+title: 循环遍历一个节点列表
 ---
 
 Assume that `elements` is a NodeList that matches given selector:

@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords: Ajax form submit, XMLHttpRequest
-title: Submit a form with Ajax
+title: 使用Ajax提交表单
+
+
 ---
 
 The following function submits the data of `formEle` to the back-end using an Ajax request:

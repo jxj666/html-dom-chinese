@@ -1,7 +1,8 @@
 ---
 category: 基础
 keywords:
-title: Replace an element
+title: 替换一个元素
+
 ---
 
 The `ele` will be removed from the DOM tree, and is replaced with `newEle`:

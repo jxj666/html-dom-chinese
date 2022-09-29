@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: get selected text, window getSelection
-title: Get the selected text
+title: 获取所选文本
 ---
 
 ```js

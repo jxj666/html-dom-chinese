@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords: scrollTo, scroll to top
-title: Scroll to top of the page
+title: 滚动到页面顶部
+
+
 ---
 
 In general, you can scroll to a point whose coordinates indicates the distance from it to the top and left side of document:

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Get the text content of an element
+title: 获取元素的文本内容
 ---
 
 Returns the raw text content of the `ele` element and its children. All the HTML tags are excluded.

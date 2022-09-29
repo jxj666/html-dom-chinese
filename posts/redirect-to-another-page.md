@@ -1,7 +1,8 @@
 ---
 category: 基础
 keywords:
-title: Redirect to another page
+title: 重定向到另一页
+
 ---
 
 ```js

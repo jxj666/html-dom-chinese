@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Clone an element
+title: 克隆一个元素
 ---
 
 ```js

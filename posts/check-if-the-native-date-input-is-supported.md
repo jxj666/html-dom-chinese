@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Check if the native date input is supported
+title: 检查是否支持本机日期输入
 ---
 
 The following function returns `true` if the current browser supports the native date input `<input type="date" />`:

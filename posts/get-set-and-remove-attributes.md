@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords: getAttribute, get element attribute, removeAttribute, remove element attribute, setAttribute, set element attribute
-title: Get, set and remove attributes
+title: 获取、设置和删除属性
+
+
 ---
 
 ### Get the attribute's value

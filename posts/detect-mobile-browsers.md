@@ -1,7 +1,9 @@
 ---
 category: 基础
 keywords: detect mobile browser, matchMedia, userAgent
-title: Detect mobile browsers
+title: 检测移动浏览器
+
+
 ---
 
 Here is a few ways to check if user is browsering from a mobile browser.

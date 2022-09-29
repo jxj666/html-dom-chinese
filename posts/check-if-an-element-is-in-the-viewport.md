@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: check element visible viewport, clientHeight, clientWidth, documentElement, getBoundingClientRect, innerHeight, innerWidth
-title: Check if an element is in the viewport
+title: 检查一个元素是否在视口中
 ---
 
 The following functions return `true` if the `ele` element is visible in the viewport:

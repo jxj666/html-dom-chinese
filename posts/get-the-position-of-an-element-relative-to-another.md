@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: element position, getBoundingClientRect
-title: Get the position of an element relative to another
+title: 获取一个元素相对于另一个元素的位置
 ---
 
 Assume that we're going to measure the top and left positions of the `ele` element relative to the `target` element.

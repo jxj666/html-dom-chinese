@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Execute code when the document is ready
+title: 当文档准备好时执行代码
 ---
 
 ```js

@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: insert after, insert before, insertAdjacentElement, insertBefore, nextSibling
-title: Insert an element after or before other element
+title: 在其他元素之前或之后插入一个元素
 ---
 
 ### Insert after

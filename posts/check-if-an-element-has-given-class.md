@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Check if an element has given class
+title: 检查元素是否指定了类
 ---
 
 ```js

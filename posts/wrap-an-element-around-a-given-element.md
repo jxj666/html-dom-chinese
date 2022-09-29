@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Wrap an element around a given element
+title: 将一个元素封装在给定的元素周围
 ---
 
 Wrap the `wrapper` element around the `ele` element:

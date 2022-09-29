@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: all siblings, next sibling, nextSibling, parentNode, previous sibling, previousSibling
-title: Get siblings of an element
+title: 获取元素的兄弟元素
 ---
 
 ### Get the previous sibling

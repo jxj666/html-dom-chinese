@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords:
-title: Show or hide an element
+title: 显示或隐藏一个元素
 ---
 
 ### Show an element

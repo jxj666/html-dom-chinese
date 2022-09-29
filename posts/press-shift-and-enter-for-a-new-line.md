@@ -1,7 +1,7 @@
 ---
 category: 基础
 keywords: addEventListener, keydown event, keyCode, preventDefault, shift enter, shiftKey
-title: Press Shift and Enter for a new line
+title: 按Shift和Enter键输入新行
 ---
 
 By default, pressing `Enter` or `Shift` and `Enter` will generate a new line for a textarea element.
